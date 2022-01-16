@@ -14,7 +14,7 @@ El proyecto de su carpeta fuente **src** tiene 3 paquetes:
  ### **TestSchedule**: Esta clase contiene la función **main** del proyecto.  
   - Contiene las funciones **compareSchedules** que realiza la comparación de la listas de schedules pasadas por cada para de nombres comparados.  
   - Tambien tiene la función **showResults** que mapea un objeto Results con los pares de empleados que tienen horarios similares.  
-  - En la función **main**, se comienza realizando la lectura del fichero con la funcion read de la clase fileRead. Luego hacemos el cáculo de combinaciones posibles dentro del numero general de empleados obtenidos. A continuación, se recorre la lista obtenida de la lectura del fichero, se va realizando las comparaciones, aqui se llama a la función compareSchedules y addPair que agrega el par de empleado al objeto Results.
+  - En la función **main**, se comienza realizando la lectura del fichero con la funcion read de la clase fileRead. A continuación, se recorre la lista obtenida de la lectura del fichero, se va realizando las comparaciones, aqui se llama a la función compareSchedules y addPair que agrega el par de empleado al objeto Results.
  ## ⚙️ Ejecutar el proyecto  
  - Para ejecutar el proyecto localmente se debe de contar con un IDE de java por ejemplo Eclipse que fue utilizado aqui, tambien se puede usar otros como Netbeans, etc.  
  - Para hacer el menor cambio posible. Cree la carpeta **empleados** en su disco local C **(C:\)** y pegue los ficheros **empleados1.txt** y **empleados2.txt** encontados en este repositorio.  
