@@ -4,6 +4,7 @@ Aplicación creada utilizando [JAVA](https://www.java.com/es/), como IDE [Eclips
 
 ## :page_facing_up: Estructura del proyecto y Explicación
 El proyecto de su carpeta fuente **src** tiene 3 paquetes:  
+- ![Estructura del proyecto](https://github.com/FreddyJR1995/EjercicioIOET/blob/master/Captura%20de%20pantalla%202022-01-15%20230507.png)
 ### **Entities**: Representa las entidades u clases que simplifican los datos. En estas se encuentran:  
   - **Schedule.java**: Esta clase representa el horario formado por el dia y la hora de trabajo.  
   - **Employee.java**: Aquí se crean los objetos empleados con su respectivo nombre y un ArrayList de schedules.  
