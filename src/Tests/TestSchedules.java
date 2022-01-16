@@ -23,19 +23,6 @@ public class TestSchedules {
 			e.printStackTrace();
 		}
 		
-		int sizeOfResults= employees.size();
-		int setOfEmployees=1;
-		int setMinusRange=sizeOfResults-2;
-		int setRankEmployees=1;
-		
-		for(int i=1; i<=sizeOfResults;i++){
-			setOfEmployees*=i;
-		}
-		for(int i=1;i<=setMinusRange;i++){
-			setRankEmployees*=i;
-		}
-		int pairs=(setOfEmployees)/(setRankEmployees*2);
-		
 		Results r=new Results();
 		
 		for(int i=0; i<employees.size();i++){
